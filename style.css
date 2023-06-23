@@ -1,0 +1,291 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* хедер */
+.container {
+    background: #012D63;
+   
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language-button {
+    display: flex;
+    justify-content: end;
+   
+    margin-left: 73px;
+}
+
+.nav-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+
+margin-left: 29px;
+
+color: #C7C7C7;
+
+}
+.header nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+ .container.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     padding-top: 30px;
+    padding-bottom: 33px; 
+} 
+.logo {
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+}
+
+/* головний контент */
+.section {
+    
+    background-image: url(./images/Group\ 37\ \(1\)\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 858px;
+    /* height: 855px; 
+    width: 1500px; */
+}
+
+.main-container {
+    margin-left: 156px;
+}
+
+.second-logo {
+    width: 160px;
+height: 120px;
+left: 171px;
+margin-top: 94px;
+}
+
+.main-title {
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+
+color: #FFFFFF;
+margin-left: 39px;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 192px;
+    
+    color: #FFFFFF;
+
+}
+
+.second-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 96px;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    width: 508px;
+}
+
+.button {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+background: #8E32C6;
+border-radius: 10px;
+
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 60px;
+padding-right: 60px;
+margin-top: 40px;
+}
+
+
+.section-two {
+    background-image: url(./images/Group\ 8\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 606px;
+}
+
+ /* .advantages {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid #8E32C6;
+    width: 1110px;
+height: 396px;
+left: 165px;
+top: 1053px;
+
+}  */
+
+/* .advantage {
+    color: #ffffff;
+    font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+} */
+
+
+.advantage-text {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+/* text-align: center; */
+
+color: #FFFFFF;
+}
+
+/* .advantages .item::before {
+    content: '';
+    display: block;
+    height: 240px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.star::after {
+background-image: url(./images/Звёзды\ 1.png);
+} */
+
+.section-three {
+    background-image: url(./images/Group\ 6\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    border: 2px solid #FFFFFF;
+}
+
+
+
+/* .reviews {
+    background: url(./images/цветы\ 2\ 1.png);
+
+background-repeat: no-repeat;
+width: 340px;
+height: 380px;
+left: 226px;
+top: 1694px;
+
+} */
+
+.order {
+    background-image: url(./images/Group\ 2\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 509px;
+}
+
+.order-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    color: #FFF;
+font-size: 48px;
+font-family: Playfair Display;
+
+}
+
+.email-input {
+    text-align: center;
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+/* футер */
+
+.footer {
+    background: #021635;
+    height: 292px;
+}
+
+.question {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+
+}
+
+.email {
+
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+}
+
+.question:first-child,
+.email:first-child {
+    padding-top: 45px;
+}
