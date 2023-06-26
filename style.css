@@ -226,7 +226,7 @@ font-family: 'Roboto';
 .flower {
     margin-right: 18px;
  position:absolute;
- flex: content;
+ 
  margin-top: 73px;
 }
 
@@ -383,9 +383,33 @@ border: none;
 
 /* футер */
 
-.footer {
+footer {
     background: #021635;
     height: 292px;
+}
+
+.footer {
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    padding-top: 45px;
+}
+
+.footer-ul {
+    display: flex;
+    border-bottom: 1px solid #9B9B9B;
+}
+
+.email-li {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: auto;
+    /* margin-right: 150px; */
+    text-decoration-line: underline;
+    text-decoration-color: #FFF;
 }
 
 .question {
@@ -394,26 +418,49 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 28px;
+/* margin-left: 150px; */
 
 color: #FFFFFF;
-
-
+padding-bottom: 10px;
 }
 
 .email {
-
-
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 10px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
-.question:first-child,
+.info {
+    color: #FFF;
+font-size: 18px;
+font-family: 'Roboto';
+padding-bottom: 7px;
+}
+.info:not(:last-child) {
+    margin-top: 24px;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-size: 24px;
+    font-family: PT Serif;
+
+    text-align: right;
+    
+}
+.footer-logo::before {
+    content: '';
+    background-image: url(./images/ed69f7fa91929ff49ecafac2bfd72360\ 2.png);
+    height: 81px;
+    width: 108px;
+}
+/* .question:first-child,
 .email:first-child {
     padding-top: 45px;
-}
+} */
