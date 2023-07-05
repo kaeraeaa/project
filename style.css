@@ -70,8 +70,6 @@ color: #C7C7C7;
     background-position: center;
     background-size: cover;
     min-height: 858px;
-    /* height: 855px; 
-    width: 1500px; */
 }
 
 .main-container {
@@ -114,8 +112,6 @@ margin-left: 39px;
     font-size: 72px;
     line-height: 96px;
 
-
-
     color: #FFFFFF;
 
 }
@@ -149,7 +145,7 @@ padding-right: 60px;
 margin-top: 40px;
 }
 
-
+/* друга секція */
 .section-two {
     background-image: url(./images/Group\ 8\ 1.jpg);
     background-repeat: no-repeat;
@@ -160,33 +156,28 @@ margin-top: 40px;
     padding-bottom: 105px;
 }
 
- 
-
-
 .main-ul {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .advantage-text {
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 48px;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .advantage {
-  width: 1110px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-    
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .line {
@@ -198,7 +189,7 @@ color: #FFFFFF;
     padding: 25px 50px 25px 50px;
   }
 
-
+/* третя секція */
 .section-three {
     background-image: url(./images/Group\ 6\ 1.jpg);
     background-repeat: no-repeat;
@@ -214,20 +205,15 @@ color: #FFFFFF;
 
 .review {
     color: #FFF;
-font-size: 24px;
-font-family: 'Roboto';
-
-/* width: 255px; */
-   
-    /* height: 292px;
-    margin-bottom: 115px; */
+    font-size: 24px;
+    font-family: 'Roboto';
 }
 
 .flower {
     margin-right: 18px;
- position:absolute;
- 
- margin-top: 73px;
+    position:absolute;
+    
+    margin-top: 73px;
 }
 
 .container-reviews{
@@ -246,11 +232,10 @@ font-family: 'Roboto';
 
 .date {
     color: #D8D8D8;
-font-size: 14px;
-font-family: 'Roboto';
-/* padding-left: 13px; */
-padding-bottom: 47px;
-padding-top: 8px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding-bottom: 47px;
+    padding-top: 8px;
 }
 
 .name-review {
@@ -260,16 +245,16 @@ padding-top: 8px;
 
 .name {
     color: #FFF;
-font-size: 14px;
-font-family: 'Roboto';
-padding-left: 5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding-left: 5px;
 }
 
 
 .year {
     color: #D8D8D8;
-font-size: 12px;
-font-family: Roboto;
+    font-size: 12px;
+    font-family: 'Roboto';
 }
 
 .review-1 {
@@ -308,15 +293,16 @@ font-family: Roboto;
 
 .reviews-text {
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
 
-text-align: center;
-color: #FFFFFF;
+    text-align: center;
+    color: #FFFFFF;
 }
 
+/* четверта секція */
 .order {
     background-image: url(./images/Group\ 2\ 1.jpg);
     background-repeat: no-repeat;
@@ -329,12 +315,11 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 64px;
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
 
 }
 
@@ -362,23 +347,23 @@ color: #FFFFFF;
     margin-bottom: 19px;
     color: #959595;
     font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 33px;
-  
-  border-radius: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    
+    border-radius: 0px;
   }
 
   .button-order {
     color: #FFF;
-font-size: 24px;
-font-family: 'Roboto';
-border-radius: 16px;
-background: #8E32C6;
-width: 248px;
-height: 68px;
-border: none;
+    font-size: 24px;
+    font-family: 'Roboto';
+    border-radius: 16px;
+    background: #8E32C6;
+    width: 248px;
+    height: 68px;
+    border: none;
   }
 
 /* футер */
@@ -407,21 +392,19 @@ footer {
     text-align: right;
     margin-bottom: 20px;
     margin-left: auto;
-    /* margin-right: 150px; */
     text-decoration-line: underline;
     text-decoration-color: #FFF;
 }
 
 .question {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* margin-left: 150px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
 
-color: #FFFFFF;
-padding-bottom: 10px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 .email {
@@ -440,27 +423,15 @@ padding-bottom: 10px;
     color: #FFF;
 font-size: 18px;
 font-family: 'Roboto';
-padding-bottom: 7px;
-}
-.info:not(:last-child) {
-    margin-top: 24px;
+padding-top: 10px;
 }
 
-.footer-logo {
+.name-logo {
     color: #FFF;
     font-size: 24px;
-    font-family: PT Serif;
+    font-family: 'PT Serif';
 
     text-align: right;
+    padding-bottom: 25px;
     
 }
-.footer-logo::before {
-    content: '';
-    background-image: url(./images/ed69f7fa91929ff49ecafac2bfd72360\ 2.png);
-    height: 81px;
-    width: 108px;
-}
-/* .question:first-child,
-.email:first-child {
-    padding-top: 45px;
-} */
